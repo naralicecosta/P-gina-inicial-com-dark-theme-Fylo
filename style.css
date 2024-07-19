@@ -1,0 +1,27 @@
+* {
+  background-color: hsl(228, 45%, 44%);
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 50px;
+  padding: 0 20px;
+}
+
+header nav .menu ul {
+  list-style-type: none;
+  display: flex;
+  gap: 40px;
+  margin-right: 30px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
